@@ -19,7 +19,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ui-yp-components": [
+        "libs/ui-yp-components/src/public-api.ts"
+      ],
+      "ui-yp-components/*": [
+        "libs/ui-yp-components/src/lib/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
