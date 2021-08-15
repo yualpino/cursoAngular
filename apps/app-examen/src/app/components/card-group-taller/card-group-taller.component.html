@@ -1,0 +1,10 @@
+<div class="card-group center">
+    <ng-container *ngFor="let items of listaTalleres">
+ <yp-card-stock 
+ [ulrImage]="items.ulrImage" 
+ [titleCard]="items.titleCard" 
+ [fecha]="items.fecha" 
+ [hora]="items.hora" 
+ [Instructor]="items.Instructor"></yp-card-stock>
+    </ng-container>
+ </div>

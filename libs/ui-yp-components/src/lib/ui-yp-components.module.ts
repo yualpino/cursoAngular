@@ -4,6 +4,7 @@ import { UiYpComponentsComponent } from './ui-yp-components.component';
 import { HeaderComponent } from './header/header.component';
 import { CardGroupStockComponent } from './card-group-stock/card-group-stock.component';
 import { CardStockComponent } from './card-stock/card-stock.component';
+import { CardStockDetailComponent } from './card-stock-detail/card-stock-detail.component';
 
 
 const MyComponents=[
@@ -19,7 +20,8 @@ const MyComponents=[
     ...MyComponents,
     HeaderComponent,
     CardGroupStockComponent,
-    CardStockComponent
+    CardStockComponent,
+    CardStockDetailComponent
     //UiYpComponentsComponent
   ],
   imports: [

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'yp-card-stock',
@@ -6,7 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card-stock.component.css']
 })
 export class CardStockComponent implements OnInit {
-
+  @Input() ulrImage:string="";
+  @Input() titleCard:string="";
+  @Input() fecha:string="";
+  @Input() hora:string="";
+  @Input() Instructor:string="";
   constructor() { }
 
   ngOnInit(): void {

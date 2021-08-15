@@ -1,15 +1,13 @@
-<div class="card" style="width: 18rem;">
-    <img src="assets/images/curso-taller.jpg" class="card-img-top" alt="...">
+<div class="card" style="width: 18rem; margin:15px;" >
+    <img [src]="'assets/images/'+ulrImage" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Angular</h5>
+      <h5 class="card-title">{{titleCard}}</h5>
       <p class="card-text">
-        <span><i class="fa fa-clock-o" aria-hidden="true"></i>
-       sdfsdfsd</span>  <br/>
-       <span><i class="fa fa-clock-o" aria-hidden="true"></i>
-        sdfsdfsd</span>  <br/>
-        <span><i class="fa fa-clock-o" aria-hidden="true"></i>
-            sdfsdfsd</span>  
+        
+            <span><i class="fa fa-calendar-o" aria-hidden="true"></i>  Dia: {{fecha}}</span>  <br/>
+            <span><i class="fa fa-clock-o" aria-hidden="true"></i>  Hora: {{hora}}</span>  <br/>
+            <span><i class="fa fa-address-card" aria-hidden="true"></i>  Intructor: {{Instructor}}</span>  <br/>
       </p>
-        <yp-button >sdfsdfsdf</yp-button>
+        <yp-button color="success">Ver</yp-button>
     </div>
   </div>
